@@ -1,0 +1,31 @@
+.card{
+   width: 300px;
+   height: 400px;
+   background-color: burlywood;
+   border-radius: 60px;
+   transition: 1s;
+}
+
+.card:hover {
+    background-color: #0080ff;
+    width: 303px;
+    height: 404px;
+    # добавляем свойство для плавности:
+    transition: 1s;
+}
+
+.photo {
+   height: 20%;
+   padding: 40px;
+   # padding - это внутренний отступ
+   # Для внешних отступов используется margin
+}
+.info {
+   padding: 10px;
+   height: 40%;
+}
+img {
+   position: relative;
+   left:21%;
+   border-radius: 20px;
+}
